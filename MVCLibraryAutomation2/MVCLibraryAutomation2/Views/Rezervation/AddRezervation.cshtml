@@ -1,0 +1,32 @@
+﻿@model EntityLayer.Concrete.Rezervation
+
+@{
+    ViewBag.Title = "AddRezervation";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+@using (Html.BeginForm("AddRezervation", "Rezervation", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.TextBoxFor(x => x.UserID, new { @class = "form-control", style = "display:none" })
+        @Html.ValidationMessageFor(x => x.UserID)
+        <br />
+        @Html.TextBoxFor(x => x.HeadingId, new { @class = "form-control", style = "display:none" })
+        @Html.ValidationMessageFor(x => x.HeadingId)
+        <br />
+        @Html.Label("Kitap Adı")
+        @Html.DropDownListFor(x => x.HeadingName, (List<SelectListItem>)ViewBag.vlc, new
+    { @class = "form-control" })
+        <br />
+        @Html.Label("Kişi Adı")
+        @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
+        <br />
+        @Html.Label("Kitap Durumu")
+        @Html.TextBoxFor(x => x.HeadingStatus, new { @class = "form-control" })
+        <br />
+
+        <button class="btn btn-info">Rezervasyon Ekle</button>
+
+    </div>
+}

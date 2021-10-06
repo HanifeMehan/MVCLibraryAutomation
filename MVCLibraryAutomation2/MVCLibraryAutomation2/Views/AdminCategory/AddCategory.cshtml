@@ -1,0 +1,35 @@
+﻿@model EntityLayer.Concrete.Category
+
+@{
+    ViewBag.Title = "AddCategory";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<br />
+@*  Html Helper metotları*@
+@*  BeginForm genellikle ekleme ve güncelleme işlemlerinde kullanılan HTML Helper 1.parametresi üzerinde çalıştığımız action
+    2.paramete controllerımız 3.parametre form metodunun değeri(POST or GET)*@
+@using (Html.BeginForm("AddCategory", "AdminCategory", FormMethod.Post))
+{
+
+    //Using ifadesinin içinde olunduğu için istenilen C# komutları kullanılabilir
+    <div class="form-group">
+
+        @Html.TextBoxFor(x => x.CategoryID, new { @class = "form-control", style= "display:none"})
+        @Html.ValidationMessageFor(x => x.CategoryID)
+        <br />
+        @Html.Label("Kategori Adı")
+        @Html.TextBoxFor(x => x.CategoryName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.CategoryName)
+        <br />
+        @Html.Label("Açıklamayı Yazınız")
+        @Html.TextAreaFor(x => x.CategoryDescription, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.CategoryDescription)
+
+        <br /> <br />
+        <button class="btn btn-info">Kaydet</button>
+
+    </div>
+
+}

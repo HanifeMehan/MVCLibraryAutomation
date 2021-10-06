@@ -1,0 +1,20 @@
+﻿using EntityLayer.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BusinessLayer.Abstract
+{
+    interface IWriterService
+    {
+
+        List<Writer> GetList();
+        void WriterAdd(Writer writer);
+        void WriiterDelete(Writer writer);
+        void WriterUpdate(Writer writer);
+        Writer GetByID(int id);
+
+    }
+}
