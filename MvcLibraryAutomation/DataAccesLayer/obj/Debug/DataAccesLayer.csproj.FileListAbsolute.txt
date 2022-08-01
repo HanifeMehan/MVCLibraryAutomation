@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\MvcLibraryAutomation\DataAccesLayer\bin\Debug\DataAccesLayer.dll.config
+C:\Users\hanif\source\repos\MvcLibraryAutomation\DataAccesLayer\bin\Debug\DataAccesLayer.dll
+C:\Users\hanif\source\repos\MvcLibraryAutomation\DataAccesLayer\bin\Debug\DataAccesLayer.pdb
+C:\Users\hanif\source\repos\MvcLibraryAutomation\DataAccesLayer\bin\Debug\EntityFramework.dll
+C:\Users\hanif\source\repos\MvcLibraryAutomation\DataAccesLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hanif\source\repos\MvcLibraryAutomation\DataAccesLayer\bin\Debug\EntityLayer.dll
+C:\Users\hanif\source\repos\MvcLibraryAutomation\DataAccesLayer\bin\Debug\EntityLayer.pdb
+C:\Users\hanif\source\repos\MvcLibraryAutomation\DataAccesLayer\bin\Debug\EntityFramework.xml
+C:\Users\hanif\source\repos\MvcLibraryAutomation\DataAccesLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hanif\source\repos\MvcLibraryAutomation\DataAccesLayer\obj\Debug\DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\hanif\source\repos\MvcLibraryAutomation\DataAccesLayer\obj\Debug\DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\MvcLibraryAutomation\DataAccesLayer\obj\Debug\DataAccesLayer.csproj.CopyComplete
+C:\Users\hanif\source\repos\MvcLibraryAutomation\DataAccesLayer\obj\Debug\DataAccesLayer.dll
+C:\Users\hanif\source\repos\MvcLibraryAutomation\DataAccesLayer\obj\Debug\DataAccesLayer.pdb

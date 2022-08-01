@@ -1,0 +1,6 @@
+C:\Users\hanif\source\repos\MvcLibraryAutomation\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\hanif\source\repos\MvcLibraryAutomation\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\hanif\source\repos\MvcLibraryAutomation\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\hanif\source\repos\MvcLibraryAutomation\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\MvcLibraryAutomation\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\hanif\source\repos\MvcLibraryAutomation\EntityLayer\obj\Debug\EntityLayer.pdb
