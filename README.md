@@ -1,3 +1,3 @@
 # MVCLibraryAutomation
 .NET MVC
-<img src="1.png">
+<img src="mg/1.png">
